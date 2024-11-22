@@ -1,0 +1,22 @@
+/* styles.css */
+.root {
+    -fx-background-color: #f0f8ff; /* Light blue background */
+}
+
+.button {
+    -fx-font-size: 16px;
+    -fx-background-color: #4CAF50; /* Green background */
+    -fx-text-fill: white; /* White text */
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Darker green on hover */
+}
+
+.vbox {
+    -fx-alignment: center; /* Center align buttons */
+    -fx-spacing: 20px; /* Space between buttons */
+}
